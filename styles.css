@@ -7,6 +7,9 @@ body {
   font-family: "JetBrains Mono", monospace;
 }
 
+h1 {
+    margin: 0;
+}
 
 .keyword {
   color: #B19CD9;
@@ -15,15 +18,37 @@ body {
 
 .function {
   color: #A020F0;
-  font-size: 2em;
+  font-size: 1em;
 }
+
 
 .symbols {
-  color: #E6E6FA;
+  color: #DCDCDC;
   font-size: 0.6em;
 }
 
-text {
-  color: #483D8B;
-  font-size: 0.6em;
+.interests {
+  color: #DCDCDC;
+  font-size: 1em;
 }
+
+.text {
+  color: #2E8B57;
+  font-size: 1em;
+}
+
+p {
+    padding-left: 30px;
+}
+
+h1 {
+    padding-left: 10px;
+}
+
+.line-numbers {
+  text-align: left; /* Align line numbers to the right */
+  padding-right: 10px; /* Space between line numbers and code */
+  color: #D3D3D3; /* Light grayish-white for line numbers */
+  font-size: 1.2em; /* Font size for line numbers */
+}
+
