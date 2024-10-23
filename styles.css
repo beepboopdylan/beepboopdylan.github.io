@@ -23,9 +23,10 @@ h1 {
 
 .symbols {
   color: #E6E6FA;
+  font-size: 0.6em;
 }
 
-p {
-  color: #D3D3D3;
+text {
+  color: #483D8B;
   font-size: 1.5em;
 }
