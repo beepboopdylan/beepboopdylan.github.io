@@ -1,4 +1,3 @@
-// script.js
 
 var i = 0;
 var txt = 
@@ -16,8 +15,9 @@ var txt =
 var speed = 50;
 
 function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("typewriter-content").innerHTML += txt.charAt(i);
+  if (i <= txt.length) {
+    // Update innerHTML by slicing the txt variable to get progressively more of the string
+    document.getElementById("typewriter-content").innerHTML = txt.slice(0, i);
     i++;
     setTimeout(typeWriter, speed);
   }
@@ -27,4 +27,3 @@ function typeWriter() {
 window.onload = function() {
   typeWriter();
 };
-
