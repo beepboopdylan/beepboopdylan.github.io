@@ -15,7 +15,8 @@ body {
 
 .typewriter {
     color: #2E8B57;
-    max-width: 100%;
+    width: 100%;
+    white-space: nowrap
     overflow: hidden;
     animation:
         typing 5s steps(157),
@@ -23,7 +24,7 @@ body {
 }
 
 .typewriter1 {
-    max-width: 100%;
+    width: 100%;
     white-space: nowrap;
     overflow: hidden;
     animation-delay: 5s;
@@ -31,7 +32,6 @@ body {
         typing 5s steps(68),
         cursor .4s step-end infinite alternate;
 }
-
 
 @keyframes cursor {
     50% {  border-color: transparent }
