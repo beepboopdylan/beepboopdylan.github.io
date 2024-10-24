@@ -9,7 +9,7 @@ body {
 
 .container {
     overflow: hidden;
-    width: 80%;
+    width: 100%;
     display: inline-block;
 }
 
@@ -19,7 +19,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     animation:
-        typing 5s steps(157),
+        typing 3s steps(157),
         cursor .4s step-end infinite alternate;
 }
 
@@ -27,9 +27,8 @@ body {
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    animation-delay: 5s;
     animation:
-        typing 5s steps(68),
+        typing 3s steps(68),
         cursor .4s step-end infinite alternate;
 }
 
