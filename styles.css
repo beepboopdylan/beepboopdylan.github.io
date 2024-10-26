@@ -10,15 +10,13 @@ body {
 
 .container {
     margin: 0 auto;
-    overflow: hidden;
     width: 60%;
     padding: 10px;
-    display: inline-block;
 }
 
 .function-header {
   display: flex;
-  align-itmes: center;
+  align-items: center;
   margin-bottom: 10px;
 }
 
