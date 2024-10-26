@@ -4,7 +4,17 @@
     <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-   
+    <div id="navbar-place-here"></div>
+    <script>
+    // Load the navbar from navbar.html
+    document.addEventListener("DOMContentLoaded", function () {
+      fetch("navbar.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("navbar-place-here").innerHTML = data;
+        });
+    });
+  </script>   
     <div class="container-project">
         <h1 class="hello">Database Lookup Server</h1>      
     </div>
@@ -19,12 +29,13 @@
       <button class="scroll-up" id="topButton">back_to_top()</button>
     </div>
    
-   <!--Return home-->
+   <!--Return home
    <div class="home-button">
       <a href="index.html" class="home-button">return_home()</a>
    </div>
-   
+   -->
    <script src="script.js"></script>
+   <script src="script1.js"></script>
 </body>
 </html>
 

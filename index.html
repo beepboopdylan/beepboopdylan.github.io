@@ -4,6 +4,17 @@
     <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
+    <div id="navbar-place-here"></div>
+    <script>
+    // Load the navbar from navbar.html
+    document.addEventListener("DOMContentLoaded", function () {
+      fetch("navbar.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("navbar-place-here").innerHTML = data;
+        });
+    });
+  </script>
     <div class="container">
         <div class="function-header">
             <span class="keyword">def </span>
@@ -72,10 +83,10 @@
                Battle the alien overlords for the sake of humanity in an interactive card game programmed in Java!
            </p>
         </div>
-   <!-- RESUME -->
+   <!-- RESUME
    <div class="resume">
        <a href="dylantranresume.html"> resume()</a>
-   </div>
+   </div>-->
    <script src="script1.js"></script>
 </body>
 </html>

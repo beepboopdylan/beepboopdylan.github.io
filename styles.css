@@ -6,6 +6,7 @@ body {
   color: white;
   font-family: "JetBrains Mono", monospace;
   padding-top: 40px;
+  margin-top: 60px;
 }
 
 .container {
@@ -15,9 +16,9 @@ body {
 }
 
 .function-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .typewriter, .typewriter1 {
@@ -178,7 +179,7 @@ p {
 .scroll-up.show {
     opacity: 1;
 }
-
+/*
 .resume a {
     font-size: 1em;
     position: fixed;
@@ -197,4 +198,30 @@ p {
 .resume a:hover {
     background-color: #B19CD9;
     text-decoration: none;
+}
+*/
+
+/*Designing Navbar*/
+.navbar {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: #333;
+   padding: 10x 20x;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   z-index: 1000;
+   transition: transform 0.3s ease;
+}
+
+.navbar-design, .my-resume {
+   color: white;
+   font-family: "JetBrains Mono", monospace;
+   text-decoration: none;
+   font-size: 1em;
+}
+
+.hidden {
+  transform: translateY(-100%);
 }
