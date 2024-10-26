@@ -5,8 +5,9 @@ body {
   background-attachment: fixed;
   color: white;
   font-family: "JetBrains Mono", monospace;
-  padding-top: 40px;
-  margin-top: 60px;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 60x;
 }
 
 .container {
