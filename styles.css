@@ -31,6 +31,11 @@ body {
         cursor .4s step-end infinite alternate;
 }
 
+.projects-page {
+   
+   
+}
+
 @keyframes cursor {
     50% {  border-color: transparent; }
 }
@@ -39,9 +44,9 @@ body {
     from { width: 0; }
 }
 
-/* Other styles for your text */
 .keyword {
   color: #B19CD9;
+  margin-right: 8px;
   font-size: 1em; /* Adjust size */
 }
 
@@ -71,4 +76,111 @@ p {
   line-height: 1.5;
 }
 
+.projects-section {
+    margin-top: 20px;
+}
+
+.projects {
+    display: flex;
+    align-items: flex; 
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.projects-image {
+    width: 80px;  /* Set the width of the image */
+    height: 80px; /* Set the height of the image to make it square */
+    margin-right: 15px; /* Space between the image and content */
+    border-radius: 8px; /* Optional: gives the image rounded corners */
+}
+
+.projects-description {
+    max-width: 80%;
+}
+
+.projects-title a {
+    color: #A020F0;
+    text-decoration: none;
+}
+
+.projects-title a:hover {
+    color: #B19CD9;
+    text-decoration: underline;
+}
+
+.container-project {
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+}
+
+.hello {
+   color: #A020F0;
+   font-size: 3em;
+   text-align: center;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center-image img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.description-project {
+    margin: 0 auto;
+    width: 70%;
+    padding: 0px;
+   text-align: center;
+}
+
+.description-text {
+    text-align: left;
+}
+
+.home-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #A020F0;
+    color: white; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    z-index: 1000;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #B19CD9;
+}
+
+.scroll-up {
+    display: inline-block;
+    background-color: #A020F0;
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+    margin-top: 20px; 
+   font-family: "JetBrains Mono", monospace;
+   font-size: 1em
+   text-align: center;
+}
+
+.scroll-up:hover {
+    background-color: #B19CD9;
+}
+
+.scroll-up.show {
+    opacity: 1;
+}
 
