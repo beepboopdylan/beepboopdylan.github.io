@@ -5,39 +5,40 @@ body {
   background-attachment: fixed;
   color: white;
   font-family: "JetBrains Mono", monospace;
+  padding-top: 40px;
 }
 
 .container {
+    margin: 0 auto;
     overflow: hidden;
-    width: 100%;
+    width: 60%;
+    padding: 10px;
     display: inline-block;
 }
 
-.typewriter {
+.function-header {
+  display: flex;
+  align-itmes: center;
+  margin-bottom: 10px;
+}
+
+.typewriter, .typewriter1 {
     color: #2E8B57;
     width: 100%;
     white-space: normal;
     overflow: hidden;
+    margin-bottom: 20px;
     animation:
         typing 3s steps(157),
         cursor .4s step-end infinite alternate;
 }
 
-.typewriter1 {
-    width: 100%;
-    white-space: normal;
-    overflow: hidden;
-    animation:
-        typing 3s steps(68),
-        cursor .4s step-end infinite alternate;
-}
-
 @keyframes cursor {
-    50% {  border-color: transparent }
+    50% {  border-color: transparent; }
 }
 
 @keyframes typing {
-    from { width: 0 }
+    from { width: 0; }
 }
 
 /* Other styles for your text */
@@ -64,16 +65,12 @@ body {
 .text {
   color: #2E8B57;
   font-size: 1em;
+  margin-right: 5px;
 }
 
 p {
   padding-left: 30px;
+  line-height: 1.5;
 }
 
-.line-numbers {
-  text-align: left; /* Align line numbers to the right */
-  padding-right: 10px; /* Space between line numbers and code */
-  color: #D3D3D3; /* Light grayish-white for line numbers */
-  font-size: 1.2em; /* Font size for line numbers */
-}
 
