@@ -31,11 +31,6 @@ body {
         cursor .4s step-end infinite alternate;
 }
 
-.projects-page {
-   
-   
-}
-
 @keyframes cursor {
     50% {  border-color: transparent; }
 }
@@ -171,9 +166,9 @@ p {
     opacity: 0;
     transition: opacity 0.3s ease; 
     margin-top: 20px; 
-   font-family: "JetBrains Mono", monospace;
-   font-size: 1em
-   text-align: center;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1em;
+    text-align: center;
 }
 
 .scroll-up:hover {
@@ -184,3 +179,22 @@ p {
     opacity: 1;
 }
 
+.resume a {
+    font-size: 1em;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #A020F0;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.resume a:hover {
+    background-color: #B19CD9;
+    text-decoration: none;
+}
