@@ -19,7 +19,7 @@ body {
 .function-header {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .typewriter, .typewriter1 {
@@ -208,7 +208,7 @@ p {
    top: 0;
    width: 100%;
    background-color: #333;
-   padding: 60x 60x;
+   padding: 20px 40px;
    display: flex;
    align-items: center;
    justify-content: space-between;
