@@ -9,7 +9,7 @@ window.addEventListener('scroll', function() {
   } else {
     navbar.classList.remove('hidden');
   }
-  lastScroll = scrollTop;
+  lastScroll = scrollTop <= 0 ? 0 : scrollTop;
 
 });
 

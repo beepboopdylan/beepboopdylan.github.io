@@ -1,3 +1,4 @@
+/*
 let lastScrollTop = 0;
 const homeButton = document.querySelector('.home-button'); // Select the home button
 
@@ -11,7 +12,7 @@ window.addEventListener('scroll', function() {
     }
     // lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
 });
-
+*/
 //scroll back up to top!!
 const scroll_up = document.getElementById("topButton");
 
