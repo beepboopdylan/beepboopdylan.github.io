@@ -102,7 +102,6 @@ p {
 }
 
 .social-link {
-    color: #66d9ef;
     text-decoration: none;
     font-family: "JetBrains Mono", monospace;
     transition: color 0.3s ease;
