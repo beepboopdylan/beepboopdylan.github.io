@@ -47,37 +47,45 @@ body {
 .keyword {
   color: #B19CD9;
   margin-right: 8px;
-  font-size: 1.2em; /* Adjust size */
+  font-size: 1.2em;
 }
 
 .function {
   color: #A020F0;
-  font-size: 1.5em; /* Adjust size */
+  font-size: 1.5em; 
 }
 
 .symbols {
   color: #DCDCDC;
-  font-size: 1.1em; /* Adjust size */
+  font-size: 1.1em;
 }
 
 .interests {
   color: #DCDCDC;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .text {
   color: #2E8B57;
-  font-size: 1.1em;
+  font-size: 1em;
   margin-right: 5px;
 }
 
 p {
   padding-left: 30px;
-  line-height: 1.5;
+  line-height: 1.3;
+}
+
+.divider {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-top: 1px solid #4a4a4a;
+  opacity: 0.8;
 }
 
 .projects-section {
-    margin-top: 20px;
+    padding-left: 20px;
 }
 
 .projects {
@@ -85,6 +93,7 @@ p {
     align-items: flex; 
     margin-bottom: 0px;
     flex-direction: column;
+    padding-left: 20px;
 }
 
 .projects-image {
@@ -96,6 +105,8 @@ p {
 
 .projects-description {
     max-width: 80%;
+    padding-left: 20px;
+    margin-top: 0;
 }
 
 .projects-title a {
