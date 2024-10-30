@@ -246,4 +246,23 @@ p {
   transition: transform 0.3s ease;
 }
 
+/*for mobile devices
+@media (max-width: 768px) {
+  .container {
+      width: 90%;
+      padding: 5px;
+  }
+  .projects-title {
+      font-size: 1.2em;
+  }
 
+  .projects-description {
+      font-size: 0.9em;
+  }
+
+  .navbar {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+  }
+}
