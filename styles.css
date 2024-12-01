@@ -153,13 +153,19 @@ p {
     height: auto; 
 }
 
-.image-row {
+.image-column {
     display: flex;
+    flex-direction: column;
     justify-content: center:
     align-items: center;
     height: auto;
     gap: 10px;
     margin: 0;
+}
+
+.tree {
+    max-width: 40%;
+    height: auto;
 }
 
 .description-project {
