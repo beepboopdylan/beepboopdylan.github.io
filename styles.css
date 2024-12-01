@@ -153,6 +153,15 @@ p {
     height: auto; 
 }
 
+.image-row {
+    display: flex;
+    justify-content: center:
+    align-items: center;
+    height: auto;
+    gap: 10px;
+    margin: 0;
+}
+
 .description-project {
     margin: 0 auto;
     width: 70%;
