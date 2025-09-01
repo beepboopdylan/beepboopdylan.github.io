@@ -16,16 +16,56 @@
     });
   </script>   
     <div class="container-project">
-        <h1 class="hello"> 
-           <a href="https://github.com/beepboopdylan/Sentiment-Analysis-of-AI-in-Africa">SeekMarine</a> 
-        </h1>      
+      <a href="https://github.com/beepboopdylan/seek-marine" target="blank">
+      <h1 class="hello"> Seek Marine </h1>      </a>
     </div>
-   <div class="center-image">
-      <img src="under-construction.jpg" alt="Project currently under construction!">
-   </div>
    <div class="description-project">
       <div class="description-text">
-         <p> description </p>
+         <div class="blog-entry">
+            <img src="seekmarine.png" alt="SeekMarine interface demo" class="center-image">
+            <p>
+               The ocean covers over 70% of our planet, yet so much of it remains a mystery.
+               
+               The most ancient lifeforms originated from the sea. The most venomous creatures are from the ocnea, evolving
+               from eons of natural selection. The ocean is the origin of life, but we so often strive to look up into space, that we
+               neglect the cradle of all living beings on Earth.
+            </p>
+
+            <p>
+               We still know so little about our ocean, and with limited education
+               and awareness, we are at risk of losing it forever. It is our duty as humans to protect
+               this ancient and vital ecosystem and all its creatures.
+            </p>
+
+            <p>
+               My goal with Seek Marine is to educate and raise awareness about the incredible biodiversity of marine life. Inspired by Seek by
+               iNaturalist, which empowers citizen scientists to document and learn about biodiversity, I sought to create a similar application
+               but catering towards marine life, in particular deep sea creatures, which are still relatively undocumented and unknown, due to
+               the extreme conditions of the deep ocean. Seek Marine allows users to upload or take pictures of marine life, and receive instant
+               identification about the species. I believe that seeing and knowing bring appreciation, and appreciation leads to conservation.
+            </p>
+
+            <p>
+               Seek Marine combines computer vision and a fullstack app architecture to make marine biodiversity accessible to all. Firstly, I trained
+               a TensorFlow CNN classifier leveraging a publicly available dataset on Kaggle, consisting of 23 different types of sea creatures.
+               The backend infrastructure is built with FastAPI, and the frontend is developed in React + TS with Tailwind CSS, with camera and gallery
+               buttons for image upload.
+            </p>
+
+            <p>
+               Though this is still a work in progress, I am planning next steps to specialize my model to identify deep sea creatures. I am thinking about
+               the challenges of deep sea imaging, with factors like low light, pressure-based color distortion, and blurriness due to water movement. These challenges
+               might impact the accuracy of the model. Therefore, to improve this model, I plan to enhance my model's robustness by augmenting the training data with images that simulate these deep sea conditions. 
+               I can use the existing dataset and apply transformations to the pictures to mimic these conditions, using PyTorch and Albumentations to lower the brightness, add noise, rotate to varying degrees, and apply blurriness.
+               Another related challenge I foresee is the limited availability of labeled images of deep sea creatures, which could impact the model's performance. I plan to use few-shot learning techniques inspired by 
+               the archaeologists who leveraged AI to accelerate the detection of rare ancient Nazca geoglyphs in Peru via satellite imagery (https://www.pnas.org/doi/10.1073/pnas.2407652121). Working with scarce data, few-shot learning 
+               can help the model generalize better to unseen classes with limited examples, which is perfect for our use case.
+            <p>
+            Github Repo: <a href="https://github.com/beepboopdylan/seek-marine" target="_blank"> https://github.com/beepboopdylan/seek-marine </a>
+            </p>
+
+
+         </div>
       </div>
       <!--scroll back up button-->
       <button class="scroll-up" id="topButton">back_to_top()</button>

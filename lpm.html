@@ -19,45 +19,50 @@
         <a href="https://github.com/andrew6255/OS_Project.git" target="blank">
         <h1 class="hello"> Linux Process Manager </h1>      </a>
     </div>
-   <div class="center-image">
-      <div class="image-container">
-         <img src="linuxprocessmanager.png" alt="LPM Main Interface" class="project-image">
-         <img src="linuxprocessmanager2.png" alt="LPM Stats Window" class="project-image">
-      </div>
-   </div>
    <div class="description-project">
       <div class="description-text">
-        <p>
+        <div class="blog-entry">
+          <div class="image-row">
+            <img src="linuxprocessmanager.png" alt="LPM Main Interface" class="center-image">
+            <img src="linuxprocessmanager2.png" alt="LPM Stats Window" class="center-image">
+          </div>          
+          <p>
           <strong>Linux Process Manager (LPM)</strong> is a desktop application developed in <strong>C++ using the Qt5 framework</strong> that provides real-time visualization and control of system processes on Linux. Inspired by tools like htop, ps, and GNOME System Monitor, LPM aims to balance performance efficiency with user-friendliness by combining a lightweight backend with a clean, customizable GUI.
-        </p>
-    
-        <p>
-          At its core, LPM continuously parses data from the /proc filesystem every two seconds, extracting process metadata such as CPU usage, memory consumption, and runtime status. The main interface displays a live process table with sortable columns, filtering options, and a search bar to locate processes by name or PID. Users can sort by CPU or memory, and apply threshold-based filters to isolate high-resource-consuming processes.
-        </p>
-    
-        <p>
-          We implemented a suite of **interactive controls** to make process management more accessible. Users can <strong>kill (SIGKILL)</strong>, <strong>pause (SIGSTOP)</strong>, or <strong>resume (SIGCONT)</strong> processes directly from the interface. In addition, our app supports <strong>renicing</strong> (changing process priority) via an integrated spinbox that lets users set nice values from -20 (high priority) to 19 (low priority). When a permission error occurs (e.g., trying to renice a system process without root), the app gracefully warns the user via a pop-up dialogue.
-        </p>
-    
-        <p>
-          LPM also includes a separate "<strong>Stats and Graphs</strong>" window that uses QtCharts to render live CPU and memory utilization graphs. These charts help users monitor performance trends over time, making it easier to detect bottlenecks or spikes. Users can toggle between light and dark themes, enhancing readability across environments. The GUI layout was designed with responsiveness and clarity in mind—making the tool usable by both beginners and power users.
-        </p>
-    
-        <p>
-          <strong>What sets LPM apart</strong> is its attention to core usability without the bloat. Unlike many system monitors that overwhelm users with unnecessary data (like detailed disk/network info), LPM focuses strictly on process-related stats and controls. Every feature, from the live refresh to the search filter, was chosen based on user surveys and a deep dive into the limitations of existing tools like Glances and lxtask.
-        </p>
-    
-        <p>
-          <strong>Reflection:</strong> Throughout development, we exceeded our original scope. Features like <em>pause/resume</em> and <em>priority setting</em> were not planned in our Phase I timeline, but we successfully incorporated them based on user need. However, the <strong>Command-Line Interface (CLI)</strong> remains incomplete and is a major area of future development. Building the CLI would allow automation, scripting, and broader accessibility for system administrators.
-        </p>
-    
-        <p>
-          This project also taught us a lot about the structure of Linux's /proc filesystem, signal handling, real-time UI updates, and privilege management. Most importantly, we learned to be flexible—adapting our development roadmap to include late-stage features based on feasibility and feedback. We now plan to build a plugin architecture so that users can enable GPU, disk I/O, or network monitoring only if needed—keeping LPM lightweight but extensible.
-        </p>
-    
-        <p>
-          In conclusion, LPM is not just a course project—it's a fully operational, modular, and thoughtfully designed tool for process management on Linux. It blends real-time feedback, GUI usability, and precise control into one application. Future directions include completing the CLI interface, improving visual analytics, and exploring cross-platform support.
-        </p>
+          </p>
+      
+          <p>
+            At its core, LPM continuously parses data from the /proc filesystem every two seconds, extracting process metadata such as CPU usage, memory consumption, and runtime status. The main interface displays a live process table with sortable columns, filtering options, and a search bar to locate processes by name or PID. Users can sort by CPU or memory, and apply threshold-based filters to isolate high-resource-consuming processes.
+          </p>
+      
+          <p>
+            We implemented a suite of **interactive controls** to make process management more accessible. Users can <strong>kill (SIGKILL)</strong>, <strong>pause (SIGSTOP)</strong>, or <strong>resume (SIGCONT)</strong> processes directly from the interface. In addition, our app supports <strong>renicing</strong> (changing process priority) via an integrated spinbox that lets users set nice values from -20 (high priority) to 19 (low priority). When a permission error occurs (e.g., trying to renice a system process without root), the app gracefully warns the user via a pop-up dialogue.
+          </p>
+      
+          <p>
+            LPM also includes a separate "<strong>Stats and Graphs</strong>" window that uses QtCharts to render live CPU and memory utilization graphs. These charts help users monitor performance trends over time, making it easier to detect bottlenecks or spikes. Users can toggle between light and dark themes, enhancing readability across environments. The GUI layout was designed with responsiveness and clarity in mind—making the tool usable by both beginners and power users.
+          </p>
+      
+          <p>
+            <strong>What sets LPM apart</strong> is its attention to core usability without the bloat. Unlike many system monitors that overwhelm users with unnecessary data (like detailed disk/network info), LPM focuses strictly on process-related stats and controls. Every feature, from the live refresh to the search filter, was chosen based on user surveys and a deep dive into the limitations of existing tools like Glances and lxtask.
+          </p>
+      
+          <p>
+            <strong>Reflection:</strong> Throughout development, we exceeded our original scope. Features like <em>pause/resume</em> and <em>priority setting</em> were not planned in our Phase I timeline, but we successfully incorporated them based on user need. However, the <strong>Command-Line Interface (CLI)</strong> remains incomplete and is a major area of future development. Building the CLI would allow automation, scripting, and broader accessibility for system administrators.
+          </p>
+      
+          <p>
+            This project also taught us a lot about the structure of Linux's /proc filesystem, signal handling, real-time UI updates, and privilege management. Most importantly, we learned to be flexible—adapting our development roadmap to include late-stage features based on feasibility and feedback. We now plan to build a plugin architecture so that users can enable GPU, disk I/O, or network monitoring only if needed—keeping LPM lightweight but extensible.
+          </p>
+      
+          <p>
+            In conclusion, LPM is not just a course project—it's a fully operational, modular, and thoughtfully designed tool for process management on Linux. It blends real-time feedback, GUI usability, and precise control into one application. Future directions include completing the CLI interface, improving visual analytics, and exploring cross-platform support.
+          </p>
+
+          <p>
+            Github Repo: <a href="https://github.com/andrew6255/OS_Project.git" target="_blank"> https://github.com/andrew6255/OS_Project.git </a>
+          </p>
+
+        </div>
     </div>
       <!--scroll back up button-->
       <button class="scroll-up" id="topButton">back_to_top()</button>
