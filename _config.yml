@@ -1,0 +1,72 @@
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Site settings
+title: "Dylan Tran"
+subtitle: "SWE · Explorer"
+name: "Dylan Tran"
+description: "New grad software engineer, Arabic language learner, and Mesopotamia enthusiast."
+url: "https://beepboopdylan.github.io"
+repository: "beepboopdylan/beepboopdylan.github.io"
+
+# Theme skin (options: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise)
+minimal_mistakes_skin: "dirt"  # warm brownish tones - fits your vibe!
+
+# Author info (shows in sidebar)
+author:
+  name: "Dylan Tran"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "New grad SWE. Ancient history nerd."
+  location: "NYC"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/beepboopdylan"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/beepboopdylan"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:dylan.g.tran@gmail.com"
+
+# Site navigation
+header:
+  navigation:
+    - title: "About"
+      url: /about/
+    - title: "Portfolio"
+      url: /portfolio/
+    - title: "Blog"
+      url: /posts/
+    - title: "Resume"
+      url: /resume/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+
+# Collections (for portfolio)
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
