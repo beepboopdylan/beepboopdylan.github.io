@@ -1,0 +1,27 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Dylan Tran"
+pygmentsUseClasses = true
+summaryLength = 15
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[taxonomies]
+tag = "tags"
+
+[[menu.main]]
+name = "Portfolio"
+url = "/portfolio/"
+weight = 1
+[menu.main.params]
+    style = "text-critical-600"
+    style_active = "bg-critical-100 dark:bg-critical-800 dark:bg-opacity-[30%]"
+
+[[menu.main]]
+name = "Blog"
+url = "/posts/"
+weight = 2
+[menu.main.params]
+    style = "text-info-600"
+    style_active = "bg-info-100 dark:bg-info-800 dark:bg-opacity-[30%]"
