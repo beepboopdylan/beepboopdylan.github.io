@@ -19,7 +19,7 @@ I want to build tools to support scientific missions and leverage data to unders
 I worked on frontend/UI engineering at [echo3D](/portfolio/echo3d), and product engineering & business development at [Annarabic](/portfolio/annarabic). I was also selected to be a Winter Defense Tech Fellow at [Palantir](https://www.palantir.com/), where I developed a project approach for intelligence gathering in sparse data regions using few-shot learning and satellite data.
 
 
-At [Columbia](/portfolio/columbia), I was the Cybersecurity Competitions Chair for [CUCyber](https://cucyber.cs.columbia.edu/) and co-treasurer of the [Columbia Vietnamese Students Association](https://www.cc-seas.columbia.edu/student-group/vietnamese-students-association-vsa). I was also an analyst in [Columbia Emerging Markets Society](https://www.columbiaemergingmarketssociety.com/) focusing on the Middle East and North Africa region.
+At [Columbia](/portfolio/columbia), I was the Cybersecurity Competitions Chair for [CUCyber](https://cucyber.cs.columbia.edu/). I was also an analyst in [Columbia Emerging Markets Society](https://www.columbiaemergingmarketssociety.com/) focusing on the Middle East and North Africa region.
 
 For more information, check out my [portfolio](/portfolio).
 
