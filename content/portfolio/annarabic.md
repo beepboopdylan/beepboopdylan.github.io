@@ -1,7 +1,7 @@
 ---
 title: Annarabic
 subtitle: Software Engineering
-category: Work
+category: Experience
 tags:
   - software engineering
   - business

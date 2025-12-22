@@ -1,7 +1,7 @@
 ---
 title: echo3D
 subtitle: Software Engineering
-category: Work
+category: Experience
 tags:
   - software engineering
   - frontend

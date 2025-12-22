@@ -10,7 +10,7 @@ highlightSubtitle: true
 weight: 1
 ---
 
-Since September 2022, I am an undergraduate at [Columbia](https://columbia.edu). I majored in [Computer Science](https://cs.columbia.edu) with a minor in [Linguistics](https://slavic.columbia.edu/content/linguistics).
+Since September 2022, I am an undergraduate at [Columbia](https://columbia.edu). I am majoring in [Computer Science](https://cs.columbia.edu) with a minor in [Linguistics](https://slavic.columbia.edu/content/linguistics).
 
 ### Honors and Awards
 

@@ -11,7 +11,7 @@ I want to build tools to support scientific missions and leverage data to unders
 
 ### Currently
 
-- I'm a Machine Learning Research Intern at [Cornell Tech](https://tech.cornell.edu/), working on Bluesky + SAEs as the only undergraduate in [Dr. Nikhil Garg's AI Lab](https://gargnikhil.com/). My work was sponsored by [Google](https://www.engineering.columbia.edu/research-innovation/institutes-centers-initiatives/computational-sciences-ai/cyber-nyc-initiative).
+- I'm a Machine Learning Research Intern at [Cornell Tech](https://tech.cornell.edu/), working on Bluesky + SAEs as the only undergraduate in [Dr. Nikhil Garg's AI Lab](https://gargnikhil.com/). My work was made possible by [Google](https://www.engineering.columbia.edu/research-innovation/institutes-centers-initiatives/computational-sciences-ai/cyber-nyc-initiative).
 - I'm a senior at [Columbia University](https://www.columbia.edu/), majoring in Computer Science and minoring in Linguistics. I'm graduating in May 2026.
 
 ### Previously
