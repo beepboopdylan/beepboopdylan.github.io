@@ -14,7 +14,7 @@ During the Spring 2025 semester, I was one of two students from my school to stu
 
 ### Relevant Courses
 * **Computer Science:** Operating Systems (w/ [Dr. Amr El-Kadi](https://www.aucegypt.edu/fac/amr-el-kadi)) · Artificial Intelligence (w/ [Dr. Ahmed Rafea](https://www.aucegypt.edu/fac/ahmed-rafea))
-* **Middle Eastern Studies and Egyptology:** Zawiyas, Harems, Coffee shops, Everyday Life in the Pre-Modern Mideast (w/ [Dr. Amina Elbendary](https://www.aucegypt.edu/fac/amina-elbendary)) · Introduction to Ancient Egypt (w/ [Dr. Mennat-Allah El Dorry](https://www.aucegypt.edu/fac/mennat-allah-el-dorry))
+* **Middle Eastern Studies and Egyptology:** Zawiyas, Harems, Coffee Shops, Everyday Life in the Pre-Modern Middle East (w/ [Dr. Amina Elbendary](https://www.aucegypt.edu/fac/amina-elbendary)) · Introduction to Ancient Egypt (w/ [Dr. Mennat-Allah El Dorry](https://www.aucegypt.edu/fac/mennat-allah-el-dorry))
 
 
 _one thing about taking an Egyptology course in Egypt is that a field trip is casually going to the Step Pyramid of Djoser in the Saqqara Necropolis. crazy, i know..._
