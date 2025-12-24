@@ -2,7 +2,7 @@
 supertitle: Dylan Tran | About, contact, and portfolio
 title: Dylan Tran
 subtitle: New York
-description: I want to use data to understand the world better.
+description: I want to build tools to support scientific missions and leverage data to understand the world better.
 url: /
 draft: false
 ---

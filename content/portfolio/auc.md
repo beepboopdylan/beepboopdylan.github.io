@@ -10,7 +10,7 @@ highlightSubtitle: true
 weight: 0
 ---
 
-During the Spring 2025 semester, I was one of two Columbia University students to study abroad at the [American University in Cairo (AUC)](https://www.auc.edu/), Egypt, as the first cohort of the [Columbia AUC partership program](https://global.undergrad.columbia.edu/program/american-university-cairo). My time in Cairo was a formative experience that deepened my understanding of the Middle East and my Arabic language abilities profoundly. Read more about here [my time at AUC](/posts/auc/).
+During the Spring 2025 semester, I was one of two students from my school to study abroad at the [American University in Cairo (AUC)](https://www.auc.edu/), Egypt, as the first cohort of the [Columbia AUC partership program](https://global.undergrad.columbia.edu/program/american-university-cairo). My time in Cairo was a formative experience that deepened my understanding of the Middle East and my Arabic language abilities profoundly. Read more about here [my time at AUC](/posts/auc/).
 
 ### Relevant Courses
 * **Computer Science:** Operating Systems (w/ [Dr. Amr El-Kadi](https://www.aucegypt.edu/fac/amr-el-kadi)) · Artificial Intelligence (w/ [Dr. Ahmed Rafea](https://www.aucegypt.edu/fac/ahmed-rafea))
