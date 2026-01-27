@@ -25,4 +25,4 @@ For more information, check out my [portfolio](/portfolio).
 
 ### Contact
 
-You can email me at [dylan.g.tran@gmail.com](mailto:dylan.g.tran@gmail.com) or download my [resume](/resume/Dylan_Tran_Resume.pdf).
+You can email me at [dylan.g.tran@gmail.com](mailto:dylan.g.tran@gmail.com) or download my [resume](/resume/Dylan_Tran_Resume.pdf). Check out my [GitHub](https://github.com/beepboopdylan) and [LinkedIn](https://www.linkedin.com/in/dylangtran/) too!
