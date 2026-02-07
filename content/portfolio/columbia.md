@@ -16,8 +16,8 @@ Since September 2022, I am an undergraduate at [Columbia](https://columbia.edu).
 
 * [**John Jay Scholar**](https://www.college.columbia.edu/alumni/jj-scholars-program) for being recognized as the top 7.5% of the incoming class of 2026
 * [**Cyber NYC REU Fellow**](https://studentresearch.engineering.columbia.edu/content/cyber-nyc-reu) in Summer 2025 with Dr. Nikhil Garg at Cornell Tech for trust & safety security research
-* [**Foreign Language and Area Studies (FLAS) Fellow**](https://www.mei.columbia.edu/news-spring-2024/fellowships-for-intensive-language-study) for summer 2024, receiving $8500 grant to study Modern Standard Arabic (MSA) and Moroccan Arabic (Darija) at the Arabic Language Institute in Fez, Morocco (read more about my experience [here](/posts/columbia-flas))
-* [**_The Reed_ First Prize Essay**](https://weai.columbia.edu/news/2023-issue-reed-now-available) for a winning essay on the topic "Linguistic Barriers and Information Access in East Asia" in Fall 2023. Read my work [here](/posts/reed-essay).
+* [**Foreign Language and Area Studies (FLAS) Fellow**](https://www.mei.columbia.edu/news-spring-2024/fellowships-for-intensive-language-study) for summer 2024, receiving $8500 grant to study Modern Standard Arabic (MSA) and Moroccan Arabic (Darija) at the Arabic Language Institute in Fez, Morocco
+* [**_The Reed_ First Prize Essay**](https://weai.columbia.edu/news/2023-issue-reed-now-available) for a winning essay on the topic "Linguistic Barriers and Information Access in East Asia" in Fall 2023. Read my work [here](/posts/reed-essay)
 
 ### Relevant Courses
 * **Software Engineering:** Engineering Software-as-a-Service · Databases · Data Structures & Algorithms

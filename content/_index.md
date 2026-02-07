@@ -7,7 +7,7 @@ url: /
 draft: false
 ---
 
-I want to build tools to support scientific missions and leverage data to understand the world better.
+I want to understand the world through data, and make that process secure.
 
 ### Currently
 
@@ -16,8 +16,7 @@ I want to build tools to support scientific missions and leverage data to unders
 
 ### Previously
 
-I worked on frontend/UI engineering at [echo3D](/portfolio/echo3d), and product engineering & business development at [Annarabic](/portfolio/annarabic). I was also selected to be a Winter Defense Tech Fellow at [Palantir](https://www.palantir.com/), where I developed a project approach for intelligence gathering in sparse data regions using few-shot learning and satellite data.
-
+I worked on frontend engineering at [echo3D](/portfolio/echo3d), and product engineering & business development at [Annarabic](/portfolio/annarabic). I was also selected to be a Winter Defense Tech Fellow at [Palantir](https://www.palantir.com/), where I developed a project approach for intelligence gathering in sparse data regions using few-shot learning and satellite data.
 
 At [Columbia](/portfolio/columbia), I was the Cybersecurity Competitions Chair for [CUCyber](https://cucyber.cs.columbia.edu/). I was also an analyst in [Columbia Emerging Markets Society](https://www.columbiaemergingmarketssociety.com/) focusing on the Middle East and North Africa region.
 
