@@ -1,6 +1,6 @@
 ---
 title: "Columbia University"
-subtitle: "Class of 2026"
+subtitle: "Class of '26"
 category: Education
 tags: ["college"]
 dateOverride: "Fall 2022 – Spring 2026"

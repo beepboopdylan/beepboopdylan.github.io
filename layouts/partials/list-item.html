@@ -29,7 +29,7 @@
           {{ end }}
         {{ end }}
       {{ end }}
-      {{ truncate 150 (.Summary | plainify) }}
+      {{ (.Summary | truncate 150 | replaceRE `<img[^>]*>` "" | replaceRE `<p>\s*</p>` "") | safeHTML }}
     </div>
   </a>
 </li>

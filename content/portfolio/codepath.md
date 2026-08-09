@@ -10,7 +10,7 @@ highlightSubtitle: true
 weight: 0
 ---
 
-Since 2023, I have completed and earned 4 CodePath certificates in software engineering, cybersecurity, and advanced technical interview preparation.
+Since 2023, I have completed and earned 4 [CodePath](https://codepath.org/) certificates in software engineering, cybersecurity, and advanced technical interview preparation.
 
 ### Certificates
 

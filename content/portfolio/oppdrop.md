@@ -5,13 +5,15 @@ category: Personal Projects
 hidePreviewImage: false
 tags:
   - software engineering
-dateOverride: "2026"
+dateOverride: "January 2026"
 highlightSubtitle: true
 weight: 2
 draft: false
 ---
 
 ![CU OppDrop interface demo](/images/portfolio/cuoppdrop.png)
+
+CU OppDrop is a student-led, campus-wide web application used by over 1.7K Columbia students to discover and track application deadlines for fellowships, internships, and other opportunities.
 
 Before my ventures into professional software engineering internships, I pursued Arabic language studies and cultural exchange, taking full advantage of my school's resources. I am grateful to have won the [Foreign Language and Area Studies (FLAS) Fellowship](https://www.ed.gov/grants-and-programs/grants-higher-education/international-and-foreign-language-education/foreign-language-and-area-studies-program) to study Arabic over Summer 2024 in Fez, Morocco, at the [Arabic Language institute in Fez](https://www.alif-fes.com/), and to have studied abroad in Spring 2025 in Cairo, Egypt, at the [American University in Cairo (AUC)](https://www.aucegypt.edu/). Both experiences were transformative and deepened my appreciation for the Arabic language and culture.
 

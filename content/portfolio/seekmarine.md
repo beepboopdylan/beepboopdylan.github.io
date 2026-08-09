@@ -8,7 +8,7 @@ tags:
   - app development
 dateOverride: Summer 2025
 highlightSubtitle: true
-weight: 1
+weight: 2
 draft: false
 ---
 
